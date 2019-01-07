@@ -1,0 +1,853 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	vertical-align: top;
+}
+html,body{
+	width: 100%;
+	height: 100%;	
+}
+.page{
+	width: 100%;
+	height: auto;
+	padding-top: 48px;
+
+}
+/*头部样式*/
+.header{
+    width:100%;
+	height: 48px;
+	background-color: #fff;
+	box-shadow: 0 5px 5px #ccc;
+	/*定位*/
+	position: fixed;
+	top : 0;
+	left: 0;
+	z-index: 999;
+	/*定位*/
+
+}
+
+.header .header-in{
+	width: 1244px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .header-in .header-left{
+	width: 435px;
+	height: 28px;
+	float: left;
+	margin-top: 10px;
+}
+.header .header-in .header-left li{
+	float: left;
+	margin-right: 20px;
+}
+.header .header-in .header-left li a{
+	line-height: 28px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: #444444;
+	font-size: 14px;
+	
+}
+.header .header-in .header-left li a:hover{
+	color: #c90000;
+}
+.header .header-in .header-left li:nth-child(7) a{
+	font-size: 40px;
+	line-height: 2px;
+}
+.header .header-in .header-left .new{
+	width: 30px;
+	height: 14px;
+	background-color:#f4a523;
+	display:inline-block;
+	line-height: 14px;
+	margin-top: 6px;
+	margin-left: 2px;
+	color: #fff;
+	font-size: 12px;
+}
+.header .header-in .header-left .logo-pic a{
+	width: 80px;
+	height: 28px;
+	display: inline-block;
+	background:url(../img/141382295.jpg) no-repeat;
+	background-size: cover;
+	
+}
+.header .header-in .header-center{
+	width: 675px;
+	height: 34px;
+	background-color: #ccc;
+	float: left;
+	margin-top: 7px;
+	
+}
+.header .header-in .header-center input{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	resize: none;
+}
+.header .header-in .header-right{
+	width: 116px;
+	height: 48px;
+	float: right;
+	
+}
+.header .header-in .header-right a{
+	float: right;
+	width: 52px;
+	height: 32px;
+	line-height: 32px;
+	display: inline;
+	text-decoration: none;
+	color: #383838;
+	border: 1px solid #d9d9d9;
+	margin-top: 7px;
+	font-size: 14px;
+	border-radius: 2px;
+	text-align: center;
+}
+.header .header-in .header-right a:nth-child(1){
+	float: left;
+	background: linear-gradient(#E53E49,#D43636);
+	color: #fff;
+	border: 1px solid #C90000;
+}
+.header .header-in .header-right a:nth-child(1):hover{
+	background: red;
+}
+.header .header-in .header-right a:nth-child(2):hover{
+	background: #C90000;
+	
+}
+/*轮播广告的样式*/
+.slider-banner{
+	width: 100%;
+	height: 60px;
+}
+.slider-banner ul{
+	width: 100%;
+	height: 60px;
+	position: relative;
+}
+.slider-banner ul li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+}
+.slider-banner ul li a{
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+}
+.slider-banner ul li:nth-child(1) a{
+	background: url(../img/广告位素材.PNG)center center;
+	
+}
+.slider-banner ul li:nth-child(2) a{
+	background: url(../img/广告位素材.PNG)center center;
+	
+}
+.slider-banner ul li:nth-child(3) a{
+	background: url(../img/广告位素材.PNG)center center;
+	
+}
+.slider-banner ul li:nth-child(4) a{
+	background: url(../img/广告位素材.PNG)center center;
+	
+}
+.slider-banner ul li:nth-child(5) a{
+	background: url(../img/广告位素材.PNG)center center;
+	
+}
+.slider-banner ul li:nth-child(6) a{
+	background: url(../img/广告位素材.PNG)center center;
+	
+}
+.slider-banner ul li:nth-child(7) a{
+	background: url(../img/广告位素材.PNG)center center;
+	
+}
+/*快速登陆样式*/
+.quick-login{
+	width: 100%;
+	height: 120px;
+	background:url(../img/横图w.PNG)  center center;
+	background-size: cover;
+}
+.quick-login .quick-login-in{
+	width:1244px ;
+	height: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-around;
+	color: #fff;
+	font-size: 18px;
+}
+.quick-login .quick-login-in .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quick-login .quick-login-in .intro .title{
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.quick-login .quick-login-in .login_icon{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.quick-login .quick-login-in .login_icon li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.quick-login .quick-login-in .login_icon li a{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border-radius: 50%;
+	
+}
+/*.quick-login .quick-login-in .login_icon li:nth-child(1) a{
+	background: url(../img/用作素质四连.PNG) 0 0 ;
+}
+.quick-login .quick-login-in .login_icon li:nth-child(2) a{
+	background: url(../img/HBuilder.png) 60px 0 ;
+}*/
+.quick-login .quick-login-in .login_icon li:nth-child(3) a{
+	background: url(../img/知乎1.PNG) center ;
+}
+.quick-login .quick-login-in .login_icon li:nth-child(4) a{
+	background: url(../img/豆瓣1.PNG) center ;
+}
+.quick-login .quick-login-in .login_icon .tip_text{
+	position: relative;
+}
+.quick-login .quick-login-in .login_icon .tip_text .line_left{
+	border-top: 1px solid #fff;
+	display: block;
+	position:absolute;
+	width: 40px;
+	top: 10px;
+	left: -45px;
+}
+.quick-login .quick-login-in .login_icon .tip_text .line_right{
+	border-top: 1px solid #fff;
+	display: block;
+	position:absolute;
+	width: 40px;
+	top: 10px;
+	right: -45px;
+}
+  /*  吸顶效果样式*/
+ .top-z{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	left: 0;
+	top: 48px;
+	background-color: rgba(0,0,0,.5);
+	z-index: 999;
+   /* display: none;*/
+}
+.top-z .top-z-in{
+	width: 1244px;
+	height: 100%;
+	margin: 0 auto;
+
+}
+.top-z .top-z-in>div{
+	width: 350px;
+	height: 100%;
+	color: #fff;
+}
+.top-z .top-z-in .left{
+	float: left;
+}
+.top-z .top-z-in .left p:nth-child(1){
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 12px;
+	
+}
+.top-z .top-z-in .right{
+	float: right;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.top-z .top-z-in .right li{
+     float: left;
+    margin-left:8px; 
+	width: 42px;
+	height: 42px;
+}
+/*.top-z .top-z-in .right li a{
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+}*/
+.top-z .top-z-in .right li:nth-child(1){
+	width: 140px;
+	font-size: 14px;
+	line-height: 42px;
+}
+.top-z .top-z-in .right li:nth-child(2){
+	background: url(../img/用作素质四连.PNG) ;
+		background-size:cover ;
+}
+.top-z .top-z-in .right li:nth-child(3){
+		background: url(../img/素质四连2.PNG) -42px 0;
+			background-size:cover ;
+}
+.top-z .top-z-in .right li:nth-child(4){
+		background: url(../img/素质四连3.PNG) -84px 0;
+			background-size:cover ;
+}
+.top-z .top-z-in .right li:nth-child(5){
+		background: url(../img/素质四连4.PNG) -126px 0;
+			background-size:cover ;
+}
+/*轮播样式  改啊改改改*/
+
+.li_img {
+            width: 800px;
+            float: left;
+            list-style: none;
+            height: 250px;
+        }
+
+        .ul_img {
+            width: 6000px;
+            padding: 0px;
+            margin: 0px;
+            transition: all 2s;
+        }
+
+        .main_div {
+            width: 1000px;
+           
+            overflow: hidden;
+            position: relative;
+
+            left: 250px;
+        }
+
+        .arrows {
+            z-index: 9999;
+            position: absolute;
+            padding-top: 80px;
+            width: 1200px;
+            left: 140px;
+        }
+
+        .arrows span {
+            font-size: 3em;
+          /*  color: seashell;*/
+          color: red;
+        }
+
+        .arrows span:hover {
+            /*变小手*/
+            cursor: pointer;
+            background-color: rgba(192, 192, 192, 0.29);
+        }
+
+        .div_btn {
+            float: left;
+            border-radius: 100px;
+            background-color: aquamarine;
+            width: 100px;
+            height: 30px;
+            margin-left: 170px;
+            margin-top: 0px;
+            
+        }
+
+        .div_btn:hover {
+            background-color: aqua;
+
+        }
+
+
+/*类型标题样式*/
+.type-title{
+	width: 100%;
+	height: 130px;
+/*	background-color: red;*/
+	
+}
+.type-title .type-title-in{
+	position:relative;
+	width: 230px;
+	height: 100%;
+	margin: 0 auto;
+/*	background-color: green;*/
+	text-align: center;
+	line-height:130px ;
+	font-size:30px 	;
+	color: #666;
+}
+.type-title .type-title-in .line-left, .type-title .type-title-in .line-right{
+	width:48px;
+	border-top: 1px solid #666;
+	position: absolute;
+    top: 65px;
+}
+.type-title .type-title-in .line-left{
+    left:15px;
+}
+.type-title .type-title-in .line-right{
+    right:15px;
+}
+/*选项卡*/
+.tab{
+	width: 100%;
+	height: auto;
+}
+.tab .tab-header{
+	width: 300px;
+	height: 48px;
+/*	background-color: red;*/
+	margin: 0 auto;
+}
+.tab .tab-header ul li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.tab .tab-header ul li.current{
+	border-bottom: 1px solid orangered;
+	color: orangered;
+}
+.tab .woaini{
+	width: 100%;
+	background-color: #e8e8e8;
+}
+.tab .woaini .dom:nth-child(1){
+	width: 100%;
+
+}
+.tab .woaini .dom:nth-child(2){
+	width: 100%;
+	height: auto;
+	background:url(../img/纸张.jpg);
+
+	background:cover;
+}
+.tab .woaini .dom:nth-child(3){
+	width: 100%;
+
+	height: 1440px;
+}
+.tab .woaini .dom{
+	display: none;
+	width: 2000px;
+}
+.dom_top{
+	width: 1244px;
+	padding: 16px;
+	margin: 0 auto;
+	height: 126px;
+	
+
+
+}
+.dom_top li{
+	width: 236px;
+	height: 126px;
+	border-radius: 4px;
+	float: left;
+	margin-left: 16px;
+	text-align: center;
+
+
+}
+.dom_top li a{
+	width: 236px;
+	height: 126px;
+	display: inline-block;
+	text-decoration: none;
+	color: aquamarine;
+		font: 100 50px "Comic Sans MS";
+	
+}
+.dom_top li:nth-child(1){
+	margin-left: 0;
+}
+.dom_top li:nth-child(1) a{
+	background: url(../img/春.PNG)
+}
+.dom_top li:nth-child(2) a{
+	background: url(../img/夏he.PNG)
+}
+.dom_top li:nth-child(3) a{
+	background: url(../img/选选个.PNG)
+}
+.dom_top li:nth-child(4) a{
+	background: url(../img/冬.PNG)
+}
+.dom_top li:nth-child(5) a{
+	background: url(../img/banner.jpg);
+}
+.tu-pian{
+	width:100%;
+	height: 950px;
+	background:;
+}
+/*图片A区域*/
+.tu-pian .item{
+	margin-right: 50px;
+	height: 300px;
+	background:url(../img/灰色.jpg);
+	margin-left: 50px;
+}
+.item li{
+	width: 270px;
+	height: 287px;
+	border-radius: 4px;
+
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.item li a{
+	width: 270px;
+	height: 287px;
+	display: inline-block;
+
+}
+.item li:nth-child(1) a{
+	background: url(../img/素材2.PNG);
+	background-size: cover ;
+}
+.item li:nth-child(2) a{
+	background: url(../img/素材3.PNG);
+		background-size: cover ;
+}
+.item li:nth-child(3) a{
+	background: url(../img/素材4.PNG);
+		background-size: cover ;
+}
+.item li:nth-child(4) a{
+	background: url(../img/素材5.PNG);
+		background-size: cover ;
+}
+/*图片B区域*/
+.tu-pian .itema{
+	margin-right: 50px;
+	height: 300px;
+	background:url(../img/灰色.jpg);
+	margin-left: 50px;
+}
+.itema li{
+	width: 270px;
+	height: 287px;
+	border-radius: 4px;
+
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.itema li a{
+	width: 270px;
+	height: 287px;
+	display: inline-block;
+
+}
+.itema li:nth-child(1) a{
+	background: url(../img/素材6.PNG);
+		background-size: cover ;
+}
+.itema li:nth-child(2) a{
+	background: url(../img/素材7.PNG);
+		background-size: cover ;
+}
+.itema li:nth-child(3) a{
+	background: url(../img/素材8.PNG);
+		background-size: cover ;
+}
+.itema li:nth-child(4) a{
+	background: url(../img/素材9.PNG);
+		background-size: cover ;
+}
+/*图片C区域*/
+.tu-pian .itemb{
+	margin-right: 50px;
+	height: 300px;
+	background:url(../img/灰色.jpg);
+	margin-left: 50px;
+}
+.itemb li{
+	width: 270px;
+	height: 287px;
+	border-radius: 4px;
+
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.itemb li a{
+	width: 270px;
+	height: 287px;
+	display: inline-block;
+
+}
+.itemb li:nth-child(1) a{
+	background: url(../img/素材10.PNG);
+		background-size: cover ;
+}
+.itemb li:nth-child(2) a{
+	background: url(../img/素材11.PNG);
+		background-size: cover ;
+}
+.itemb li:nth-child(3) a{
+	background: url(../img/素材12.PNG);
+		background-size: cover ;
+}
+.itemb li:nth-child(4) a{
+	background: url(../img/素材13.PNG);
+		background-size: cover ;
+}
+.dom .henga{
+	width: 100%;
+	height: 300px;
+	background:url(../img/QIANXUN.PNG);
+		background-size: cover;
+		text-align: left;
+}
+.dom .hengb{
+	width: 100%;
+	height: 300px;
+	background:url(../img/美国往事.jpg);
+	background-size: cover;
+}
+.dom .hengc{
+	width: 100%;
+	height: 300px;
+	background: url(../img/君的名字.jpg);
+    background-size: cover;
+}
+.dom .hengd{
+	width: 100%;
+	height: 300px;
+	background: url(../img/秒速.jpg);
+    background-size: cover;
+}
+.dom .henge{
+	width: 100%;
+	height: 300px;
+	background: url(../img/少年.jpg);
+	background-size: cover;
+}
+.zitiup{
+	width: 400px;
+	height: 120px;
+/*	background:blue;*/
+	text-align: left;
+	font-size:40px;
+	text-shadow: 0 0 2px black;
+    display: table-cell;
+    vertical-align:middle;
+    color: white;
+
+}
+.zitidown{
+	width: 600px;
+	height: 160px;
+/*	background-color: orange;*/
+	margin-left: 100px;
+	text-shadow: 0 0 2px black; 
+    color: white;
+}
+.photosa{
+	width: 350px;
+	height: 275px;
+	margin-right: 100px;	
+/*	background:url(../img/千寻从.PNG);*/
+	float: right;
+	margin-top: -280px;
+}
+.photosb{
+	width: 350px;
+	height: 275px;
+	margin-right: 100px;	
+/*	background:url(../img/g6.jpg);*/
+	float: right;
+	margin-top: -280px;
+}
+.photosc{
+	width: 350px;
+	height: 275px;
+	margin-right: 100px;	
+/*	background:url(../img/g2.jpg);*/
+	float: right;
+	margin-top: -280px;
+}
+.photosd{
+	width: 350px;
+	height: 275px;
+	margin-right: 100px;	
+/*	background:url(../img/g4.jpg);*/
+	float: right;
+	margin-top: -280px;
+}
+.photose{
+	width: 350px;
+	height: 275px;
+	margin-right: 100px;	
+/*	background:url(../img/g7.jpg)*/;
+	float: right;
+	margin-top: -280px;
+}
+.fabiao{
+	width: 100%;
+	height: 230px;
+	background:url(../img/背景板.jpg);
+	background-size: cover ;
+}
+.fabiao .wenzina{
+	height: 140px;
+	width: 420px;
+	margin-right: 40px;
+	font-size: 27px;
+	font-family: "楷体";
+	color: deeppink;
+	
+}
+.fabiao .wenben{
+	height: 150px;
+	width: 440px;
+	margin-right: 480px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    margin-top: 40px;
+    color: blueviolet;
+    font-size: x-large;
+}
+.fabiao .anniu{
+	float: right;
+	margin-right:-493px;
+	height: 50px;
+	width: 50px;
+
+	margin-top: 130px;
+	
+    	
+	
+}
+.liuyan{
+	height: 210px;
+	width: 100%;
+	width: 100%;
+
+}
+.liuyan .one{
+	height: 150px;
+	width: 540px;
+	background-color: peru;
+	float: left;
+	flex-direction: column;
+	border-radius: 50px ;
+	margin-left: 60px;
+	
+}
+.liuyan .two{
+    height: 150px;
+	width: 540px;
+	background-color: peru;
+	float: right;
+	flex-direction: column;
+	border-radius: 50px ;
+	margin-right: 60px;
+	margin-top: 57px;
+}
+.liuyan2{
+	height: 210px;
+	width: 100%;
+	width: 100%;
+
+}
+.liuyan2 .onea{
+	height: 150px;
+	width: 540px;
+	background-color: peru;
+	float: left;
+	flex-direction: column;
+	border-radius: 50px ;
+	margin-left: 60px;
+	
+}
+.liuyan2 .twob{
+    height: 150px;
+	width: 540px;
+	background-color: peru;
+	float: right;
+	flex-direction: column;
+	border-radius: 50px ;
+	margin-right: 60px;
+	margin-top: 57px;
+}
+.liuyan3{
+	height: 210px;
+	width: 100%;
+	width: 100%;
+
+}
+.liuyan3 .onec{
+	height: 150px;
+	width: 540px;
+	background-color: peru;
+	float: left;
+	flex-direction: column;
+	border-radius: 50px ;
+	margin-left: 60px;
+	
+}
+.liuyan3 .twod{
+    height: 150px;
+	width: 540px;
+	background-color: peru;
+	float: right;
+	flex-direction: column;
+	border-radius: 50px ;
+	margin-right: 60px;
+	margin-top: 57px;
+}
+.biao{
+	width: 100%;
+	height: 100%;
+	font-size: x-large;
+	background:url(../img/作业本.jpg);
+	box-shadow: 10px 10px 5px #888888;
+	background-size: cover;
+}
+.anniu1{
+	width: 100%;
+	height: 100%;
+}

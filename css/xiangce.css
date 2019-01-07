@@ -1,0 +1,64 @@
+.passpic{
+	background-image: url(../img/tututu2.png) ;
+	height: 150px;
+	background-size: cover;
+}
+.passpic1{
+	background-image: url(../img/tututu.PNG);
+	height: 150px;
+	width: 500px;
+	margin-left: 510px;
+}
+.passpic2{
+	background-image: url(../img/tututu4.png);
+	background-size: cover;
+	height: 50px;
+	width: 50%;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+    font-family: "微软雅黑";
+}
+.passpic3{
+	background-image: url(../img/tututu3.png);
+	background-size: cover;
+	height: 50px;
+	width: 50%;
+    float: right;
+    margin-top: 100px;
+    font-size: x-large;
+    font-style: initial;
+    text-align: center;
+    
+
+}
+.passpic3 a{
+	text-decoration: none;
+
+}
+.suoyoutu{
+	background-image: url(../img/datutu.png);
+	background-size: 100%;
+
+	
+}
+.tutu1{
+	background-color: pink;
+	height: 340px;
+	width: 500px;
+	margin-left: 150px;
+
+
+}
+.tutu2{
+   background-image: url(../img/xiangcebg.PNG);
+   background-size: cover;
+	height: 340px;
+	width: 500px;
+	margin-right: 150px;
+	float: right;
+	margin-top: -340px;
+	font-size: x-large;
+	
+}

@@ -1,0 +1,42 @@
+.zuida{
+	background:url(../img/banner.jpg);
+
+}
+.chuanghou{
+	height: 300px;
+	width: 300px;
+	margin-top: 160px;
+	margin-left: 550px;
+/*	background:url(../img/141382295.jpg);*/
+}
+.chuanghou .beijing {
+
+	height: 300px;
+	margin-top: 160px;
+	vertical-align:middle;
+	display: table-cell;
+	text-align: center;
+	color: blueviolet;
+	font: "楷体";
+	
+}
+.chuanghoubc{
+	height: 300px;
+	width: 300px;
+	margin-top: -126px;
+	margin-right: 480px;
+	float: right;
+/*	background:url(../img/141382295.jpg);*/
+}
+
+.chuanghou .beijingbc {
+
+	height: 300px;
+	margin-top: 160px;
+	margin-left: 500px;
+	color: blueviolet;
+	font: "楷体";
+	font-size: large;
+	
+	
+}
